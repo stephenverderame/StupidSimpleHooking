@@ -19,8 +19,8 @@ Detour detour(targetAddr, replacementAddr);
 
 detour.set(targetAddr, replacementAddr);
 ```
-After that all you have to do is call `hook()` to hook the target and call
-`unhook()` to unhook the target
+After that all you have to do is call the class member functions `hook()` 
+to hook the target and `unhook()` to unhook the target
   
   
 While I have not tested it, this "library" (I say library in quotes bc its just so simple)
